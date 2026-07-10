@@ -61,7 +61,12 @@ SO I started with the hard part. Arranging the switches . I used a Grid of 19.05
 <img width="1317" height="627" alt="Screenshot 2026-06-08 021926" src="https://github.com/user-attachments/assets/1e2d0f09-0347-46e1-8550-bb1a6d73e7ae" />
 <img width="1521" height="525" alt="Screenshot 2026-06-08 021857" src="https://github.com/user-attachments/assets/633c3c71-19a1-455f-8207-f7405ff12a6a" />
 
-### 3D Render <br><br>
+###  Made and Polished the Case <br><br>
+Hours :- 5.75 hours 
+
+So I took the measurements of the keyboard then made a sketch of same size.after that I added 1 mm releat from each side and added a boundary sketch and curved it edges.after that I need to add sketches for holding the plates . So I added it's boundary and started making symmetric Rectangles and circles for holding the Plate boundary , I repeted it for the tob and bottom<img width="974" height="415" alt="Screenshot 2026-06-08 111706" src="https://github.com/user-attachments/assets/43728780-c7b1-48b8-b349-4d707a1cde1f" />then to the sides<img width="844" height="370" alt="Screenshot 2026-06-08 112854" src="https://github.com/user-attachments/assets/7b4c110e-eeb1-4119-8298-0eb835722b93" />after that I made a simple base then extruded it as per the needs to make the base Case basic design all the meserments were pre calculated.
+
+
 <img width="1158" height="550" alt="Screenshot 2026-06-08 170318 - Copy" src="https://github.com/user-attachments/assets/4d891798-c0f3-4475-9df8-6684c0cb2afd" />
 <img width="818" height="619" alt="Screenshot 2026-06-08 170339" src="https://github.com/user-attachments/assets/1a95979c-809d-485c-a2c8-ed636c6c98bc" />
 
