@@ -4,7 +4,7 @@
 
 <img width="1158" height="550" alt="Screenshot 2026-06-08 170318" src="https://github.com/user-attachments/assets/841aec48-1cd3-44ef-9f79-7b16b6ec1393" />
 
-I am building a 65% layout keyboard based on Seed Studio Xiao nrf52840 also It will have a 3.7v battery and an 0.91 inch OLED Screen. Switches will be HotSwapable. I used expander to connect the rows and coluns because there weren't enough pins available.
+I built a 65% layout keyboard based on Seed Studio Xiao nrf52840 also It will have a 3.7v battery and an 0.91 inch OLED Screen. Switches will be HotSwapable. I used expander to connect the rows and coluns because there weren't enough pins available.
 
 ## Features
 -  nrf52840 Rp2040
@@ -32,6 +32,17 @@ I am building a 65% layout keyboard based on Seed Studio Xiao nrf52840 also It w
 | **Total** | **115.22** | |
 
 ### Schematic<br><br>
+
+## Made the Key-Matrix 
+Hours- 5.5 hr <br>
+So I opened the schematics and added a key switch and a diode. Then I had my way toward how many switches would be there per row . The number of keys per row wasn't constant So I made a rough sketch about how would I assign the columns and rows to each Key switch. after that as I would be using keyboard matrix ,so I needed to add a diode to each key switch to prevent ghosting. Then I started making the switch layout . I also kept in mind that each switches aren't of same length so I had to use specific footprints for each switches specifically as per the 65 % standard layout. The Switches will be hot-swapable as well. While making the switch matrix it was a bit time consuming as I tried to organized the switches as well as per there layout ,so that it will be easy for me to connect the wires.While reviewing I found a few placement and footprint mistakes so I solved them then I moved toward making the rows and columns connection and adding the labels to them So this is how it looks.<img width="948" height="282" alt="Screenshot 2026-06-07 231856" src="https://github.com/user-attachments/assets/ef217032-1269-45cf-a9d6-eaad2f930c29" />
+
+<br>
+
+## Adding other components
+
+Hours :- 2.5 hr
+So there is no footprint and symbol for the Xioa nRF52840 , So I downloaded them and added it to kicad also I knew that there weren't enough numbers of gpio pins on the Xiao nRF52840 so handle all the 15 columns and 5 rows So I needed to use an expander , So for that I used PCA9555D and read it's data sheet a bit , It will communicate to the MCU via I2C protocol , So I started adding the rows and columns label to it but even one expander wasn't enough So I had to add a second one to add the connections of all rows and columns then I did all the other connection on the expander.after that I added pins for Battery connection. the battery that we would be using will be of 3.7v lithium ion battery. and made a battery sense circuit. the nRF52840 has inbuild battery charging IC and it can control the charring part so I don't to add anything more after that I added a 4 pins for 0.91 inch oled display and added labels to it.after that I connected every label to the Xiao nRF52840. So this is how the final schematics look
 
 <img width="1066" height="602" alt="Screenshot 2026-06-08 015730" src="https://github.com/user-attachments/assets/67299736-3179-49bb-b96d-e3e75a65549e" />
 
