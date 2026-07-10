@@ -64,9 +64,13 @@ SO I started with the hard part. Arranging the switches . I used a Grid of 19.05
 ###  Made and Polished the Case <br><br>
 Hours :- 5.75 hours 
 
-So I took the measurements of the keyboard then made a sketch of same size.after that I added 1 mm releat from each side and added a boundary sketch and curved it edges.after that I need to add sketches for holding the plates . So I added it's boundary and started making symmetric Rectangles and circles for holding the Plate boundary , I repeted it for the tob and bottom<img width="974" height="415" alt="Screenshot 2026-06-08 111706" src="https://github.com/user-attachments/assets/43728780-c7b1-48b8-b349-4d707a1cde1f" />then to the sides<img width="844" height="370" alt="Screenshot 2026-06-08 112854" src="https://github.com/user-attachments/assets/7b4c110e-eeb1-4119-8298-0eb835722b93" />after that I made a simple base then extruded it as per the needs to make the base Case basic design all the meserments were pre calculated.
+So I took the measurements of the keyboard then made a sketch of same size.after that I added 1 mm releat from each side and added a boundary sketch and curved it edges.after that I need to add sketches for holding the plates . So I added it's boundary and started making symmetric Rectangles and circles for holding the Plate boundary , I repeted it for the tob and bottom<img width="974" height="415" alt="Screenshot 2026-06-08 111706" src="https://github.com/user-attachments/assets/43728780-c7b1-48b8-b349-4d707a1cde1f" /><br>then to the sides<br><img width="844" height="370" alt="Screenshot 2026-06-08 112854" src="https://github.com/user-attachments/assets/7b4c110e-eeb1-4119-8298-0eb835722b93" /> <br>after that I made a simple base then extruded it as per the needs to make the base Case basic design all the meserments were pre calculated.<img width="959" height="348" alt="Screenshot 2026-06-08 114626 (1)" src="https://github.com/user-attachments/assets/4890e5b6-ea44-4e00-9d75-569f8e13aaa6" />
+after that I added PCB aligned it perfectly with the sketch then moved it to a calculated height ( this time the calculations things were right).then I added the 3D model of the MCU and started making holes on the Case for the USB-C for that I used a simple sketch and extruded to to make a cut
+<img width="1056" height="653" alt="Screenshot 2026-06-08 141044" src="https://github.com/user-attachments/assets/e605aeb1-62f0-4926-bd5d-90bcc6bd7ba3" /> then made the middle and the top layer 
+<img width="973" height="383" alt="Screenshot 2026-06-08 155226" src="https://github.com/user-attachments/assets/74109ac2-1986-43ba-b640-a90c89b26eea" />
+<img width="1075" height="471" alt="Screenshot 2026-06-08 162410" src="https://github.com/user-attachments/assets/07670264-de42-4c3f-a50f-88aa969196ae" />
 
-
+And polished the case and these are the final result 
 <img width="1158" height="550" alt="Screenshot 2026-06-08 170318 - Copy" src="https://github.com/user-attachments/assets/4d891798-c0f3-4475-9df8-6684c0cb2afd" />
 <img width="818" height="619" alt="Screenshot 2026-06-08 170339" src="https://github.com/user-attachments/assets/1a95979c-809d-485c-a2c8-ed636c6c98bc" />
 
