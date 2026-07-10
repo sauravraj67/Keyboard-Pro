@@ -4,7 +4,7 @@
 
 <img width="1158" height="550" alt="Screenshot 2026-06-08 170318" src="https://github.com/user-attachments/assets/841aec48-1cd3-44ef-9f79-7b16b6ec1393" />
 
-I built a 65% layout keyboard based on Seed Studio Xiao nrf52840 also It will have a 3.7v battery and an 0.91 inch OLED Screen. Switches will be HotSwapable. I used expander to connect the rows and coluns because there weren't enough pins available.
+I built a 65% layout keyboard based on Seed Studio Xiao nrf52840 also It will have a 3.7v battery and an 0.91 inch OLED Screen. Switches will be HotSwapable. I used expander to connect the rows and coluns because there weren't enough pins available.  It is Bluetooth enabled  
 
 ## Features
 -  nrf52840 Rp2040
