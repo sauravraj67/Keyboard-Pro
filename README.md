@@ -41,7 +41,7 @@ So I opened the schematics and added a key switch and a diode. Then I had my way
 
 ## Adding other components
 
-Hours :- 2.5 hr
+Hours :- 2.5 hr <br>
 So there is no footprint and symbol for the Xioa nRF52840 , So I downloaded them and added it to kicad also I knew that there weren't enough numbers of gpio pins on the Xiao nRF52840 so handle all the 15 columns and 5 rows So I needed to use an expander , So for that I used PCA9555D and read it's data sheet a bit , It will communicate to the MCU via I2C protocol , So I started adding the rows and columns label to it but even one expander wasn't enough So I had to add a second one to add the connections of all rows and columns then I did all the other connection on the expander.after that I added pins for Battery connection. the battery that we would be using will be of 3.7v lithium ion battery. and made a battery sense circuit. the nRF52840 has inbuild battery charging IC and it can control the charring part so I don't to add anything more after that I added a 4 pins for 0.91 inch oled display and added labels to it.after that I connected every label to the Xiao nRF52840. So this is how the final schematics look
 
 <img width="1066" height="602" alt="Screenshot 2026-06-08 015730" src="https://github.com/user-attachments/assets/67299736-3179-49bb-b96d-e3e75a65549e" />
