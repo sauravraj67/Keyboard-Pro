@@ -48,6 +48,16 @@ So there is no footprint and symbol for the Xioa nRF52840 , So I downloaded them
 
 ###  PCB Design<br><br>
 
+## Started with PCB ( Component placement)
+Hours :- 4.75 hours <br>
+SO I started with the hard part. Arranging the switches . I used a Grid of 19.05U so that the switches snap easily but that wasn't the case . I tried to snap them with each other via using different grid sizes and moving them then they use to snap properly. It look me a long time snapping the switches and overt to that placing switches at the right Place because each rows doesn't have same number of rows I had to align the first switch to the right place , also I added Stabilizers for any switch whose footprint was over 2.25U. The main thing was choosing the right Switch while placing and the most hectic thing was that switches don't use to snap directly . I have to move it around using different grid sizes to achieve the goal . Then I added the Xiao nRF52840 to the right top side a bit away from the corner then added the switches after that placed the Oled screen in the free space and added the expanders in places where there was free space I made few alteration of the keyboard but finally ended up with this after that I placed the diodes near to each respective switch to which it was attached onto the bottom layer of the PCB then I added the boundaries and this is how PCB layout looks now.
+
+<img width="1424" height="415" alt="Screenshot 2026-06-08 000432" src="https://github.com/user-attachments/assets/9e5d956d-002b-4feb-bf16-314c7110a9a4" />
+
+ ## Routed the PCB 
+ Hours :- 6.5 <br>
+
+ So I stated with routing the PCB I initially routed the diodes to the switches then I moved and started making rows and columns . I tried to make as clean routs as possible then I started routing the rows and columns to the expander . I used vias where there weren't space to rout . I had to make few alteration while routing so that my routs looks clean and workable . Many a times there weren't a way to rout . So I had to re-rout few traces but I was able to rout it to the two expanders. Then I stared connecting the SDA/SCL lines to the MCU from the expander and the OLED screen after that I made connection for the battery pins and battery connected circuit. So after all the rout the PCB looks like this with all the clean straight routs .
 <img width="1317" height="627" alt="Screenshot 2026-06-08 021926" src="https://github.com/user-attachments/assets/1e2d0f09-0347-46e1-8550-bb1a6d73e7ae" />
 <img width="1521" height="525" alt="Screenshot 2026-06-08 021857" src="https://github.com/user-attachments/assets/633c3c71-19a1-455f-8207-f7405ff12a6a" />
 
